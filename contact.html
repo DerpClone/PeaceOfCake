@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="CSS/footer.css">
+   <link rel="stylesheet" href="CSS/styles.css">
+   <link rel="stylesheet" href="CSS/footer.css">
+</head>
+
+<style>
+body{
+    margin: 0;
+    padding: 0;
+}
+
+</style>
+
+<body>
+  <h1 id="title">PeaceOfCake</h1>
+
+  <ul class="nav">
+    <li class="nav"><a class="nav" href="index.html">Home</a></li>
+    <li class="nav"><a class="nav" href="basic.html">Baking basics</a></li>
+    <li class="nav"><a class="nav" href="recipeMain.html">Recipes</a></li>
+    <li class="nav"><a class="nav" href="about.html">About us</a></li>
+    <li class="nav"><a class="nav" id="active" href="contact.html">Contact</a></li>
+
+  </ul>
+
+    <div class="image">
+        <img src="imgs/Bakery_Banner.png" alt="Bakery Banner" class="center" style="width: 100%; height: auto; margin:0; overflow-x: hidden;">
+    <div class="container">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label><span class="required">*</span>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label><span class="required">*</span>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Topic</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="feedback">Feedback</option>
+          <option value="suggest">Suggestion</option>
+          <option value="comments">Comments</option>
+          <option value="ship">Shipping</option>
+          <option value="faq">FAQ</option>
+          <option value="hire">Apply for job / internship</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label><span class="required">*</span>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Your message.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <button style="text-align:center" ><a href="contact.html" style="float:right">Submit</a></button>
+    </div>
+
+	</div>
+	<footer class="footer">
+        <div class="inner-footer">
+            <div class="social-links">
+                <ul>
+                    <li class="social-items"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+                    <li class="social-items"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="outer-footer">
+            Copyright &copy; PeaceOfCakes. All rights Reserved
+        </div>
+    </footer>
+
+
+
+</div>
+
+
+
+
+</body>
+
+</head>
+</html>
